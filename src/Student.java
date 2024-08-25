@@ -1,7 +1,7 @@
 import java.util.Objects;
 
 public class Student implements Comparable<Student>{
-    private String name;
+    String name;
     private int rollNo;
 
     public Student(String name, int rollNo) {
