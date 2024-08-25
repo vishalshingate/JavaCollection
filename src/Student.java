@@ -29,9 +29,12 @@ public class Student implements Comparable<Student>{
     public int hashCode() {
         return Objects.hash(name, rollNo);
     }
-
-    @Override
+    // compare using roll number
+  /*  @Override
     public int compareTo(Student that) {
         return this.rollNo - that.rollNo;
+    }*/
+    public int compareTo(Student that) {
+        return this.name.compareTo(that.name);
     }
 }
