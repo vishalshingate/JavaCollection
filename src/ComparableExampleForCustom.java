@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
-public class ComparatorExampleForCustom {
+public class ComparableExampleForCustom {
     public static void main(String[] args) {
         List<Student> list = new ArrayList<Student>();
 
